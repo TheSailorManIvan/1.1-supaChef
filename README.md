@@ -1,3 +1,5 @@
+https://supachef.onrender.com/
+
 # supaChef
 
 supaChef is a clean, modern, and minimalist pizza recipe prototype where
@@ -88,17 +90,3 @@ Publish directory: dist
 The interface uses in-memory navigation, so the public URL remains at the site
 root and refreshing always returns to the category menu. The rewrite remains as
 a hosting fallback for requests that arrive at an unknown path.
-
-## Prototype content
-
-The recipes are illustrative training data for a frontend study. They are not
-official Pizza Hut preparation instructions. Pizza Hut product photographs from
-public Pizza Hut Belgium product pages are used locally for this non-commercial
-prototype; the project is not affiliated with or endorsed by Pizza Hut.
-
-Product-image source pages:
-
-- https://www.pizzahut.be/super-supreme
-- https://www.pizzahut.be/nl/pepperoni
-- https://www.pizzahut.be/nl/garden-lovers
-- https://www.pizzahut.be/nl/margherita
