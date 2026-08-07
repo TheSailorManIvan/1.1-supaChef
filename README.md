@@ -62,7 +62,7 @@ interface without a backend controller layer. React's component and routing
 model maps more directly to the interface hierarchy.
 
 - JSON is the content model.
-- The URL is the source of truth for the selected category and pizza.
+- In-memory navigation is the source of truth for the selected category and pizza.
 - `CookbookScreen` derives the visible grid from the route and catalogue.
 - Reusable tile components own presentation and local interaction.
 - Motion `layoutId` values preserve tile identity between interface levels.
@@ -82,8 +82,9 @@ Build command: npm install && npm run build
 Publish directory: dist
 ```
 
-All routes rewrite to `index.html` so direct recipe URLs and browser navigation
-continue to work after deployment.
+The interface uses in-memory navigation, so the public URL remains at the site
+root and refreshing always returns to the category menu. The rewrite remains as
+a hosting fallback for requests that arrive at an unknown path.
 
 ## Prototype content
 
