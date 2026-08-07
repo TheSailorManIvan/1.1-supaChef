@@ -61,15 +61,15 @@ export function CookbookScreen({ reduceMotion }) {
     [],
   );
 
-  function animateLogoForTouch() {
-    if (!window.matchMedia("(hover: none)").matches) return;
+  function animateLogoForTouch(event) {
+    if (event.pointerType === "mouse") return;
 
     playBackSound().catch(() => {});
     window.clearTimeout(logoAnimationTimer.current);
     setIsLogoTapped(true);
     logoAnimationTimer.current = window.setTimeout(() => {
       setIsLogoTapped(false);
-    }, 260);
+    }, 320);
   }
 
   function playLogoHoverSound() {
