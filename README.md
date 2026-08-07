@@ -1,14 +1,13 @@
 # supaChef
 
-supaChef is a small, responsive pizza recipe prototype built to explore
-route-driven interfaces, CSS Grid, and shared-layout animation. The first
-milestone deliberately contains one complete path:
+supaChef is a clean, modern, and minimalist pizza recipe prototype where
+ingredient order matters. It explores route-driven interfaces, CSS Grid,
+shared-layout animation, and game-like audio feedback using Vite, JavaScript,
+React, and Motion.
 
-`Meat -> Super Supreme -> ordered recipe steps`
-
-Chicken, Veg, and Other are intentionally empty category shells. This keeps the
-prototype focused on whether the navigation and animation concept works before
-more menu content is added.
+Recipes are grouped into Meat, Chicken, Veg, and Other. Selecting a pizza
+reveals its ingredients from left to right in preparation order, with optional
+quantity notes available directly from the topping tiles.
 
 ## Run locally
 
@@ -68,6 +67,8 @@ model maps more directly to the interface hierarchy.
 - Reusable tile components own presentation and local interaction.
 - Motion `layoutId` values preserve tile identity between interface levels.
 - Temporary state is limited to the currently revealed recipe comment.
+- Shared controls provide Home navigation, QR sharing, copying, and printing.
+- Interface sounds are preloaded and reused through `src/audio/sounds.js`.
 
 Shared animation settings live in `src/animation/transitions.js`. The responsive
 grid and visual treatment are defined with plain CSS.
@@ -86,11 +87,10 @@ continue to work after deployment.
 
 ## Prototype content
 
-The Super Supreme ingredients and order are illustrative training data for a
-frontend study. They are not official Pizza Hut preparation instructions. Pizza
-Hut product photographs from public Pizza Hut Belgium product pages are used
-locally for this non-commercial prototype; the project is not affiliated with
-or endorsed by Pizza Hut.
+The recipes are illustrative training data for a frontend study. They are not
+official Pizza Hut preparation instructions. Pizza Hut product photographs from
+public Pizza Hut Belgium product pages are used locally for this non-commercial
+prototype; the project is not affiliated with or endorsed by Pizza Hut.
 
 Product-image source pages:
 
