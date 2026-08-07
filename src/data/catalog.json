@@ -1,0 +1,443 @@
+{
+  "categories": [
+    {
+      "id": "meat",
+      "name": "Meat",
+      "order": 1,
+      "color": "#e52b2f",
+      "image": "/images/categories/meat.jpg"
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "order": 2,
+      "color": "#f4c430",
+      "image": "/images/categories/chicken.jpg"
+    },
+    {
+      "id": "veg",
+      "name": "Veg",
+      "order": 3,
+      "color": "#2fa66a",
+      "image": "/images/categories/veg.jpg"
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "order": 4,
+      "color": "#3478d4",
+      "image": "/images/categories/other.jpg"
+    }
+  ],
+  "ingredients": [
+    { "id": "tomato-sauce", "name": "Tomato sauce", "image": "/images/toppings/tomato-sauce.jpg" },
+    { "id": "mozzarella", "name": "Mozzarella", "image": "/images/toppings/mozzarella.jpg" },
+    { "id": "cheddar", "name": "Cheddar", "image": "/images/toppings/cheddar.jpg" },
+    { "id": "ham", "name": "Ham", "image": "/images/toppings/ham.jpg" },
+    { "id": "pepperoni", "name": "Pepperoni", "image": "/images/toppings/pepperoni.jpg" },
+    { "id": "italian-sausage", "name": "Italian sausage", "image": "/images/toppings/italian-sausage.jpg" },
+    { "id": "beef", "name": "Beef", "image": "/images/toppings/beef.jpg" },
+    { "id": "mushrooms", "name": "Mushroom", "image": "/images/toppings/mushrooms.jpg" },
+    { "id": "kalamata-olives", "name": "Kalamata olives", "image": "/images/toppings/kalamata-olives.jpg" },
+    { "id": "pineapple", "name": "Pineapple", "image": "/images/toppings/pineapple.jpg" },
+    { "id": "red-capsicum", "name": "Red capsicum", "image": "/images/toppings/red-capsicum.jpg" },
+    { "id": "green-capsicum", "name": "Green capsicum", "image": "/images/toppings/green-capsicum.jpg" },
+    { "id": "onion", "name": "Onion", "image": "/images/toppings/onion.jpg" },
+    { "id": "jalapenos", "name": "Jalapenos", "image": "/images/toppings/jalapenos.jpg" },
+    { "id": "chilli-flakes", "name": "Chilli flakes", "image": "/images/toppings/chilli-flakes.jpg" },
+    { "id": "aioli", "name": "Aioli", "image": "/images/toppings/aioli.jpg" },
+    { "id": "tomato", "name": "Tomato", "image": "/images/toppings/tomato.jpg" },
+    { "id": "oregano", "name": "Oregano", "image": "/images/toppings/oregano.jpg" },
+    { "id": "olives", "name": "Olives", "image": "/images/toppings/olives.jpg" },
+    { "id": "bbq-sauce", "name": "BBQ sauce", "image": "/images/toppings/bbq-sauce.jpg" },
+    { "id": "chicken", "name": "Chicken", "image": "/images/toppings/chicken.jpg" },
+    { "id": "smoky-bbq", "name": "Smoky BBQ", "image": "/images/toppings/smoky-bbq.jpg" },
+    { "id": "alfredo-sauce", "name": "Alfredo sauce", "image": "/images/toppings/alfredo-sauce.jpg" },
+    { "id": "bacon", "name": "Bacon", "image": "/images/toppings/bacon.jpg" },
+    { "id": "steak", "name": "Steak", "image": "/images/toppings/steak.jpg" },
+    { "id": "hollandaise", "name": "Hollandaise", "image": "/images/toppings/hollandaise.jpg" },
+    { "id": "hickory-brown-sugar", "name": "Hickory & Brown Sugar", "image": "/images/toppings/hickory-brown-sugar.jpg" },
+    { "id": "vegan-cheese", "name": "Vegan cheese", "image": "/images/toppings/vegan-cheese.jpg" },
+    { "id": "prawns", "name": "Prawns", "image": "/images/toppings/prawns.jpg" },
+    { "id": "garlic-granules", "name": "Garlic granules", "image": "/images/toppings/garlic-granules.jpg" },
+    { "id": "parsley", "name": "Parsley", "image": "/images/toppings/parsley.jpg" }
+  ],
+  "pizzas": [
+    {
+      "id": "super-supreme",
+      "name": "Super Supreme",
+      "categoryId": "meat",
+      "image": "/images/pizzas/super-supreme.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mushrooms", "comment": "1/2 cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "pineapple", "comment": "2 per slice. Large: 16 / Medium: 12" },
+        { "ingredientId": "olives", "comment": "2 per slice. Large: 16 / Medium: 12" },
+        { "ingredientId": "pepperoni", "comment": "1 per slice. Large: 8 / Medium: 6" },
+        { "ingredientId": "ham", "comment": "1/2 cup" },
+        { "ingredientId": "beef", "comment": "1/2 cup" },
+        { "ingredientId": "italian-sausage", "comment": "1/2 cup" }
+      ]
+    },
+    {
+      "id": "cheese-lovers",
+      "name": "Cheese Lovers",
+      "categoryId": "veg",
+      "image": "/images/pizzas/cheese-lovers.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "cheddar", "comment": "1/2 cup" },
+        { "ingredientId": "mozzarella", "comment": "2 1/2 cups" }
+      ]
+    },
+    {
+      "id": "hot-spicy-veggie",
+      "name": "Hot & Spicy Veggie",
+      "categoryId": "veg",
+      "image": "/images/pizzas/hot-spicy-veggie.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "red-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "pineapple", "comment": "1/2 cup" },
+        { "ingredientId": "jalapenos", "comment": "1/2 cup" },
+        { "ingredientId": "chilli-flakes", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "aioli", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "margherita",
+      "name": "Margherita",
+      "categoryId": "veg",
+      "image": "/images/pizzas/margherita.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "tomato", "comment": "1 1/2 cups" },
+        { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "garlic-granules", "comment": "Large: 8 shakes / Medium: 6 shakes" }
+      ]
+    },
+    {
+      "id": "veggie-sensation",
+      "name": "Veggie Sensation",
+      "categoryId": "veg",
+      "image": "/images/pizzas/veggie-sensation.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mushrooms", "comment": "1/2 cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "tomato", "comment": "1/2 cup" },
+        { "ingredientId": "pineapple", "comment": "1 cup" },
+        { "ingredientId": "olives", "comment": "2 per slice. Large: 16 / Medium: 12" },
+        { "ingredientId": "cheddar", "comment": "1/2 cup" },
+        { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" }
+      ]
+    },
+    {
+      "id": "bbq-chicken",
+      "name": "BBQ Chicken",
+      "categoryId": "chicken",
+      "image": "/images/pizzas/bbq-chicken.jpg",
+      "steps": [
+        { "ingredientId": "bbq-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 large yellow cheese cup" },
+        { "ingredientId": "mushrooms", "comment": "1 1/2 cups" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "chicken", "comment": "1 1/2 cups" },
+        { "ingredientId": "smoky-bbq", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "chicken-supreme",
+      "name": "Chicken Supreme",
+      "categoryId": "chicken",
+      "image": "/images/pizzas/chicken-supreme.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 large yellow cheese cup" },
+        { "ingredientId": "mushrooms", "comment": "1/2 cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "red-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "pineapple", "comment": "2 per slice. Large: 16 / Medium: 12" },
+        { "ingredientId": "chicken", "comment": "1 1/2 cups" }
+      ]
+    },
+    {
+      "id": "creamy-chicken-bacon",
+      "name": "Creamy Chicken & Bacon",
+      "categoryId": "chicken",
+      "image": "/images/pizzas/creamy-chicken-bacon.jpg",
+      "steps": [
+        { "ingredientId": "alfredo-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 large yellow cheese cup" },
+        { "ingredientId": "mushrooms", "comment": "1/2 cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "chicken", "comment": "1 1/2 cups" },
+        { "ingredientId": "bacon", "comment": "1 per slice. Large: 8 / Medium: 6" },
+        { "ingredientId": "aioli", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "hot-spicy-chicken",
+      "name": "Hot & Spicy Chicken",
+      "categoryId": "chicken",
+      "image": "/images/pizzas/hot-spicy-chicken.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 large yellow cheese cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "pineapple", "comment": "1/2 cup" },
+        { "ingredientId": "jalapenos", "comment": "1/2 cup" },
+        { "ingredientId": "chicken", "comment": "1 1/2 cups" },
+        { "ingredientId": "chilli-flakes", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "aioli", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "smoky-chicken-bacon",
+      "name": "Smoky Chicken & Bacon",
+      "categoryId": "chicken",
+      "image": "/images/pizzas/smoky-chicken-bacon.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 large yellow cheese cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "tomato", "comment": "1/2 cup" },
+        { "ingredientId": "chicken", "comment": "1 1/2 cups" },
+        { "ingredientId": "bacon", "comment": "1 per slice. Large: 8 / Medium: 6" },
+        { "ingredientId": "smoky-bbq", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "bbq-beef",
+      "name": "BBQ Beef",
+      "categoryId": "meat",
+      "image": "/images/pizzas/bbq-beef.jpg",
+      "steps": [
+        { "ingredientId": "bbq-sauce", "comment": "1 ladle" },
+        { "ingredientId": "beef", "comment": "1 1/2 cups" }
+      ]
+    },
+    {
+      "id": "bbq-cheese-burger",
+      "name": "BBQ Cheese Burger",
+      "categoryId": "meat",
+      "image": "/images/pizzas/bbq-cheese-burger.jpg",
+      "steps": [
+        { "ingredientId": "bbq-sauce", "comment": "1 ladle" },
+        { "ingredientId": "beef", "comment": "1 1/2 cups" },
+        { "ingredientId": "ham", "comment": "1 1/2 cups" },
+        { "ingredientId": "smoky-bbq", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "bbq-meatlovers",
+      "name": "BBQ Meatlovers",
+      "categoryId": "meat",
+      "image": "/images/pizzas/bbq-meatlovers.jpg",
+      "steps": [
+        { "ingredientId": "bbq-sauce", "comment": "1 ladle" },
+        { "ingredientId": "pepperoni", "comment": "1 per slice. Large: 8 / Medium: 6" },
+        { "ingredientId": "ham", "comment": "1/2 cup" },
+        { "ingredientId": "beef", "comment": "1/2 cup" },
+        { "ingredientId": "italian-sausage", "comment": "1/2 cup" },
+        { "ingredientId": "bacon", "comment": "1 per slice. Large: 8 / Medium: 6" }
+      ]
+    },
+    {
+      "id": "butchers-block",
+      "name": "Butchers Block",
+      "categoryId": "meat",
+      "image": "/images/pizzas/butchers-block.jpg",
+      "steps": [
+        { "ingredientId": "bbq-sauce", "comment": "1 ladle" },
+        { "ingredientId": "pepperoni", "comment": "1 per slice. Large: 8 / Medium: 6" },
+        { "ingredientId": "ham", "comment": "1/2 cup" },
+        { "ingredientId": "italian-sausage", "comment": "1/2 cup" },
+        { "ingredientId": "chicken", "comment": "1/2 cup" },
+        { "ingredientId": "steak", "comment": "1 cup" },
+        { "ingredientId": "bacon", "comment": "1 per slice. Large: 8 / Medium: 6" },
+        { "ingredientId": "hollandaise", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "epic-pepperoni",
+      "name": "Epic Pepperoni",
+      "categoryId": "meat",
+      "image": "/images/pizzas/epic-pepperoni.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "pepperoni", "comment": "8 per slice. Large: 64 / Medium: 48" }
+      ]
+    },
+    {
+      "id": "hamlovers",
+      "name": "Hamlovers",
+      "categoryId": "meat",
+      "image": "/images/pizzas/hamlovers.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "ham", "comment": "1 1/2 cups" }
+      ]
+    },
+    {
+      "id": "hawaiian",
+      "name": "Hawaiian",
+      "categoryId": "meat",
+      "image": "/images/pizzas/hawaiian.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "pineapple", "comment": "1 1/2 cups" },
+        { "ingredientId": "ham", "comment": "1 cup" }
+      ]
+    },
+    {
+      "id": "mega-meatlovers",
+      "name": "Mega Meatlovers",
+      "categoryId": "meat",
+      "image": "/images/pizzas/mega-meatlovers.jpg",
+      "steps": [
+        { "ingredientId": "bbq-sauce", "comment": "1 ladle" },
+        { "ingredientId": "pepperoni", "comment": "1 per slice. Large: 8 / Medium: 6" },
+        { "ingredientId": "ham", "comment": "1/2 cup" },
+        { "ingredientId": "beef", "comment": "1/2 cup" },
+        { "ingredientId": "italian-sausage", "comment": "1/2 cup" },
+        { "ingredientId": "steak", "comment": "1 cup" },
+        { "ingredientId": "bacon", "comment": "1 per slice. Large: 8 / Medium: 6" },
+        { "ingredientId": "hickory-brown-sugar", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "pepperoni-lovers",
+      "name": "Pepperoni Lovers",
+      "categoryId": "meat",
+      "image": "/images/pizzas/pepperoni-lovers.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "pepperoni", "comment": "Large: 40 / Medium: 30" }
+      ]
+    },
+    {
+      "id": "ultimate-hot-spicy",
+      "name": "Ultimate Hot & Spicy",
+      "categoryId": "meat",
+      "image": "/images/pizzas/ultimate-hot-spicy.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "tomato", "comment": "1/2 cup" },
+        { "ingredientId": "jalapenos", "comment": "1/2 cup" },
+        { "ingredientId": "pepperoni", "comment": "2 per slice. Large: 16 / Medium: 12" },
+        { "ingredientId": "beef", "comment": "1/2 cup" },
+        { "ingredientId": "italian-sausage", "comment": "1/2 cup" },
+        { "ingredientId": "chilli-flakes", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "aioli", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "vegan-cheese-lovers",
+      "name": "Vegan Cheese Lovers",
+      "categoryId": "veg",
+      "image": "/images/pizzas/vegan-cheese-lovers.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "vegan-cheese", "comment": "1 cheese cup" },
+        { "ingredientId": "vegan-cheese", "comment": "1 topping cup" }
+      ]
+    },
+    {
+      "id": "vegan-margherita",
+      "name": "Vegan Margherita",
+      "categoryId": "veg",
+      "image": "/images/pizzas/vegan-margherita.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "tomato", "comment": "3 cups" },
+        { "ingredientId": "vegan-cheese", "comment": "1 cheese cup" },
+        { "ingredientId": "garlic-granules", "comment": "Large: 8" },
+        { "ingredientId": "oregano", "comment": "Large: 8" }
+      ]
+    },
+    {
+      "id": "vegan-mediterranean",
+      "name": "Vegan Mediterranean",
+      "categoryId": "veg",
+      "image": "/images/pizzas/vegan-mediterranean.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mushrooms", "comment": "1 cup" },
+        { "ingredientId": "onion", "comment": "1 cup" },
+        { "ingredientId": "tomato", "comment": "1 cup" },
+        { "ingredientId": "olives", "comment": "1 cup" },
+        { "ingredientId": "vegan-cheese", "comment": "1 cheese cup" }
+      ]
+    },
+    {
+      "id": "vegan-deluxe",
+      "name": "Vegan Deluxe",
+      "categoryId": "veg",
+      "image": "/images/pizzas/vegan-deluxe.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mushrooms", "comment": "1 cup" },
+        { "ingredientId": "onion", "comment": "1 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1 cup" },
+        { "ingredientId": "tomato", "comment": "1/2 cup" },
+        { "ingredientId": "pineapple", "comment": "1/2 cup" },
+        { "ingredientId": "vegan-cheese", "comment": "1 cheese cup" },
+        { "ingredientId": "garlic-granules", "comment": "Large: 8" },
+        { "ingredientId": "oregano", "comment": "Large: 8" }
+      ]
+    },
+    {
+      "id": "garlic-prawn",
+      "name": "Garlic Prawn",
+      "categoryId": "other",
+      "image": "/images/pizzas/garlic-prawn.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "tomato", "comment": "1 cup" },
+        { "ingredientId": "mozzarella", "comment": "1 cup" },
+        { "ingredientId": "prawns", "comment": "1 + 2 per slice. Large: 12 / Medium: 9" },
+        { "ingredientId": "garlic-granules", "comment": "Large: 12 shakes / Medium: 9 shakes" },
+        { "ingredientId": "aioli", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "creamy-garlic-prawn",
+      "name": "Creamy Garlic Prawn",
+      "categoryId": "other",
+      "image": "/images/pizzas/creamy-garlic-prawn.jpg",
+      "steps": [
+        { "ingredientId": "alfredo-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mushrooms", "comment": "1/2 cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "mozzarella", "comment": "1 cup" },
+        { "ingredientId": "prawns", "comment": "1 + 2 per slice. Large: 12 / Medium: 9" },
+        { "ingredientId": "garlic-granules", "comment": "12 shakes" },
+        { "ingredientId": "parsley", "comment": "Post-cook topping. 8 shakes" }
+      ]
+    },
+    {
+      "id": "surf-turf",
+      "name": "Surf & Turf",
+      "categoryId": "other",
+      "image": "/images/pizzas/surf-turf.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "tomato", "comment": "1 cup" },
+        { "ingredientId": "mozzarella", "comment": "1 cup" },
+        { "ingredientId": "prawns", "comment": "1 per slice. Large: 12 / Medium: 9" },
+        { "ingredientId": "beef", "comment": "1/2 cup" },
+        { "ingredientId": "steak", "comment": "1/2 cup" }
+      ]
+    }
+  ]
+}
