@@ -12,11 +12,14 @@ import { ShareDialog } from "../components/ShareDialog";
 import { playBackSound, playButtonSound, playHomeSound } from "../audio/sounds";
 import {
   categories,
+  getCategoryRecipeImages,
   getCategory,
   getPizza,
+  getPizzaPreviewImages,
   getPizzasForCategory,
   getRecipeSteps,
 } from "./catalog";
+import { preloadImages } from "../images/preloadImages";
 
 function parseLocation(pathname) {
   const parts = pathname.split("/").filter(Boolean);
@@ -60,6 +63,21 @@ export function CookbookScreen({ reduceMotion }) {
     },
     [],
   );
+
+  useEffect(() => {
+    const sources = category
+      ? getCategoryRecipeImages(category.id)
+      : getPizzaPreviewImages();
+    const startPreload = () => preloadImages(sources);
+
+    if ("requestIdleCallback" in window) {
+      const idleId = window.requestIdleCallback(startPreload, { timeout: 600 });
+      return () => window.cancelIdleCallback(idleId);
+    }
+
+    const timerId = window.setTimeout(startPreload, 80);
+    return () => window.clearTimeout(timerId);
+  }, [category]);
 
   function animateLogoForTouch(event) {
     if (event.pointerType === "mouse") return;

@@ -51,8 +51,11 @@ public/images/toppings/
 public/images/placeholders/
 ```
 
-Missing topping images currently fall back to a local ingredient-board image,
-so new data can be added before every final photograph is available.
+At build time, Vite checks which image files are present. Missing pizza images
+fall back directly to their category image, and missing topping images use the
+local ingredient-board image without first making a failed browser request.
+Restart the Vite development server after adding a new image so it is included
+in this image manifest.
 
 ## Architecture
 

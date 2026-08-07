@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
 export function FoodImage({ src, alt, fallback, className = "" }) {
-  const [currentSrc, setCurrentSrc] = useState(src);
+  const [currentSrc, setCurrentSrc] = useState(src || fallback);
 
   useEffect(() => {
-    setCurrentSrc(src);
-  }, [src]);
+    setCurrentSrc(src || fallback);
+  }, [fallback, src]);
 
   function handleError() {
     if (currentSrc !== fallback) setCurrentSrc(fallback);
@@ -17,6 +17,7 @@ export function FoodImage({ src, alt, fallback, className = "" }) {
       src={currentSrc}
       alt={alt}
       loading="eager"
+      decoding="async"
       draggable="false"
       onError={handleError}
     />
