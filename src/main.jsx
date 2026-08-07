@@ -6,12 +6,6 @@ import { startOpeningSound } from "./audio/sounds";
 import "./styles/global.css";
 import "./styles/cookbook.css";
 
-const navigationEntry = performance.getEntriesByType("navigation")[0];
-
-if (navigationEntry?.type === "reload" && window.location.pathname !== "/") {
-  window.history.replaceState(window.history.state, "", "/");
-}
-
 startOpeningSound();
 
 createRoot(document.getElementById("root")).render(
