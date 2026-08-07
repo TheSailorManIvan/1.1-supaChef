@@ -346,8 +346,7 @@
       "image": "/images/pizzas/vegan-cheese-lovers.jpg",
       "steps": [
         { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
-        { "ingredientId": "vegan-cheese", "comment": "1 cheese cup" },
-        { "ingredientId": "vegan-cheese", "comment": "1 topping cup" }
+        { "ingredientId": "vegan-cheese", "comment": "2 1/2 cheese cup" }
       ]
     },
     {
