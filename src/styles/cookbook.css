@@ -582,47 +582,6 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .wordmark,
-  .wordmark::before,
-  .wordmark::after,
-  .wordmark-supa,
-  .wordmark-chef {
-    transition: none;
-  }
-
-  .wordmark:hover {
-    filter: none;
-    transform: skewX(-5deg);
-  }
-
-  .wordmark:active,
-  .wordmark.wordmark-tapped {
-    filter: none;
-    transform: skewX(-5deg);
-  }
-
-  .wordmark:active::before,
-  .wordmark:active::after,
-  .wordmark.wordmark-tapped::before,
-  .wordmark.wordmark-tapped::after,
-  .wordmark:hover::before,
-  .wordmark:hover::after {
-    width: 14px;
-  }
-
-  .wordmark:hover .wordmark-supa,
-  .wordmark:hover .wordmark-chef,
-  .wordmark:active .wordmark-supa,
-  .wordmark:active .wordmark-chef,
-  .wordmark.wordmark-tapped .wordmark-supa,
-  .wordmark.wordmark-tapped .wordmark-chef {
-    transform: none;
-  }
-
-  .wordmark-signal {
-    animation: none;
-  }
-
   .category-tile:hover .tile-image,
   .pizza-tile:hover .tile-image {
     transform: none;
