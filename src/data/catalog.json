@@ -100,6 +100,7 @@
       "image": "/images/pizzas/hot-spicy-veggie.jpg",
       "steps": [
         { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 yellow cup" },
         { "ingredientId": "onion", "comment": "1/2 cup" },
         { "ingredientId": "red-capsicum", "comment": "1/2 cup" },
         { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
@@ -116,6 +117,7 @@
       "image": "/images/pizzas/margherita.jpg",
       "steps": [
         { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 yellow cup" },
         { "ingredientId": "tomato", "comment": "1 1/2 cups" },
         { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" },
         { "ingredientId": "garlic-granules", "comment": "Large: 8 shakes / Medium: 6 shakes" }
@@ -128,6 +130,7 @@
       "image": "/images/pizzas/veggie-sensation.jpg",
       "steps": [
         { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 yellow cup" },
         { "ingredientId": "mushrooms", "comment": "1/2 cup" },
         { "ingredientId": "onion", "comment": "1/2 cup" },
         { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
