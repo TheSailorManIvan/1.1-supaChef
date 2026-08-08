@@ -51,7 +51,7 @@
     { "id": "olives", "name": "Olives", "image": "/images/toppings/olives.jpg" },
     { "id": "bbq-sauce", "name": "BBQ sauce", "image": "/images/toppings/bbq-sauce.jpg" },
     { "id": "chicken", "name": "Chicken", "image": "/images/toppings/chicken.jpg" },
-    { "id": "smoky-bbq", "name": "Smoky BBQ", "image": "/images/toppings/smoky-bbq.jpg" },
+    { "id": "smoky-bbq", "name": "Smoky BBQ Sauce", "image": "/images/toppings/smoky-bbq.jpg" },
     { "id": "alfredo-sauce", "name": "Alfredo sauce", "image": "/images/toppings/alfredo-sauce.jpg" },
     { "id": "bacon", "name": "Bacon", "image": "/images/toppings/bacon.jpg" },
     { "id": "steak", "name": "Steak", "image": "/images/toppings/steak.jpg" },
