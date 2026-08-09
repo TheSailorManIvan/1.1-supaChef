@@ -274,7 +274,7 @@
         { "ingredientId": "onion", "comment": "1/2 cup" },
         { "ingredientId": "chicken", "comment": "1 1/2 cups" },
         { "ingredientId": "bacon", "comment": "1 per slice. Large: 8 / Medium: 6" },
-        { "ingredientId": "parsley", "comment": "Post-cook topping" }
+        { "ingredientId": "parsley", "comment": "Post-cook topping. Large: 8 shakes / Medium: 6 shakes" }
       ]
     },
     {
@@ -525,7 +525,7 @@
         { "ingredientId": "mozzarella", "comment": "1 cup" },
         { "ingredientId": "prawns", "comment": "1 + 2 per slice. Large: 12 / Medium: 9" },
         { "ingredientId": "garlic-granules", "comment": "12 shakes" },
-        { "ingredientId": "parsley", "comment": "Post-cook topping. 8 shakes" }
+        { "ingredientId": "parsley", "comment": "Post-cook topping. Large: 8 shakes / Medium: 6 shakes" }
       ]
     },
     {
