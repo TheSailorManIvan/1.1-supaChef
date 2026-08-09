@@ -60,9 +60,9 @@
     { "id": "vegan-cheese", "name": "Vegan cheese", "image": "/images/toppings/vegan-cheese.jpg" },
     { "id": "prawns", "name": "Prawns", "image": "/images/toppings/prawns.jpg" },
     { "id": "paneer", "name": "Paneer", "image": "/images/toppings/paneer.jpg" },
-    { "id": "hot-honey", "name": "Hot honey", "image": "/images/toppings/hot-honey.jpg" },
-    { "id": "mango-habanero", "name": "Mango habanero", "image": "/images/toppings/mango-habanero.jpg" },
-    { "id": "peri-peri", "name": "Peri peri", "image": "/images/toppings/peri-peri.jpg" },
+    { "id": "hot-honey", "name": "Hot Honey Sauce", "image": "/images/toppings/hot-honey.jpg" },
+    { "id": "mango-habanero", "name": "Mango Habanero Sauce", "image": "/images/toppings/mango-habanero.jpg" },
+    { "id": "peri-peri", "name": "Peri Peri Sauce", "image": "/images/toppings/peri-peri.jpg" },
     { "id": "garlic-granules", "name": "Garlic granules", "image": "/images/toppings/garlic-granules.jpg" },
     { "id": "parsley", "name": "Parsley", "image": "/images/toppings/parsley.jpg" }
   ],
@@ -143,6 +143,92 @@
         { "ingredientId": "olives", "comment": "2 per slice. Large: 16 / Medium: 12" },
         { "ingredientId": "cheddar", "comment": "1/2 cup" },
         { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" }
+      ]
+    },
+    {
+      "id": "creamy-garlic-paneer",
+      "name": "Creamy Garlic Paneer",
+      "categoryId": "veg",
+      "image": "/images/pizzas/creamy-garlic-paneer.jpg",
+      "steps": [
+        { "ingredientId": "alfredo-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 yellow cup" },
+        { "ingredientId": "mushrooms", "comment": "1/2 cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "paneer", "comment": "1 cup" },
+        { "ingredientId": "garlic-granules", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "parsley", "comment": "Post-cook topping. Large: 8 shakes / Medium: 6 shakes" }
+      ]
+    },
+    {
+      "id": "paneer-veggie-sensation",
+      "name": "Paneer Veggie Sensation",
+      "categoryId": "veg",
+      "image": "/images/pizzas/paneer-veggie-sensation.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 yellow cup" },
+        { "ingredientId": "mushrooms", "comment": "1/2 cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "tomato", "comment": "1/2 cup" },
+        { "ingredientId": "pineapple", "comment": "1/2 cup" },
+        { "ingredientId": "olives", "comment": "2 per slice. Large: 16 / Medium: 12" },
+        { "ingredientId": "paneer", "comment": "1 cup" },
+        { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "garlic-granules", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "mango-habanero", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "peri-peri-paneer",
+      "name": "Peri Peri Paneer",
+      "categoryId": "veg",
+      "image": "/images/pizzas/peri-peri-paneer.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 yellow cup" },
+        { "ingredientId": "tomato", "comment": "1/2 cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "paneer", "comment": "1 cup" },
+        { "ingredientId": "peri-peri", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "hot-honey-paneer",
+      "name": "Hot Honey Paneer",
+      "categoryId": "veg",
+      "image": "/images/pizzas/hot-honey-paneer.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 yellow cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "red-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "jalapenos", "comment": "1/2 cup" },
+        { "ingredientId": "paneer", "comment": "1 cup" },
+        { "ingredientId": "hot-honey", "comment": "Post-cook topping" }
+      ]
+    },
+    {
+      "id": "hot-spicy-paneer",
+      "name": "Hot & Spicy Paneer",
+      "categoryId": "veg",
+      "image": "/images/pizzas/hot-spicy-paneer.jpg",
+      "steps": [
+        { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
+        { "ingredientId": "mozzarella", "comment": "Medium: 2 blue topping cups / Large: 1 yellow cup" },
+        { "ingredientId": "onion", "comment": "1/2 cup" },
+        { "ingredientId": "red-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "green-capsicum", "comment": "1/2 cup" },
+        { "ingredientId": "pineapple", "comment": "1/2 cup" },
+        { "ingredientId": "jalapenos", "comment": "1/2 cup" },
+        { "ingredientId": "paneer", "comment": "1 cup" },
+        { "ingredientId": "chilli-flakes", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "garlic-granules", "comment": "Large: 8 shakes / Medium: 6 shakes" }
       ]
     },
     {
