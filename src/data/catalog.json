@@ -372,8 +372,8 @@
         { "ingredientId": "tomato-sauce", "comment": "1 ladle" },
         { "ingredientId": "tomato", "comment": "3 cups" },
         { "ingredientId": "vegan-cheese", "comment": "1 cheese cup" },
-        { "ingredientId": "garlic-granules", "comment": "Large: 8" },
-        { "ingredientId": "oregano", "comment": "Large: 8" }
+        { "ingredientId": "garlic-granules", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" }
       ]
     },
     {
@@ -403,8 +403,8 @@
         { "ingredientId": "tomato", "comment": "1/2 cup" },
         { "ingredientId": "pineapple", "comment": "1/2 cup" },
         { "ingredientId": "vegan-cheese", "comment": "1 cheese cup" },
-        { "ingredientId": "garlic-granules", "comment": "Large: 8" },
-        { "ingredientId": "oregano", "comment": "Large: 8" }
+        { "ingredientId": "garlic-granules", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" }
       ]
     },
     {
