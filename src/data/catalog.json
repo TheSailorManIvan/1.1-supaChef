@@ -142,7 +142,8 @@
         { "ingredientId": "pineapple", "comment": "1 cup" },
         { "ingredientId": "olives", "comment": "2 per slice. Large: 16 / Medium: 12" },
         { "ingredientId": "cheddar", "comment": "1/2 cup" },
-        { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" }
+        { "ingredientId": "oregano", "comment": "Large: 8 shakes / Medium: 6 shakes" },
+        { "ingredientId": "aioli", "comment": "Post-cook topping" }
       ]
     },
     {
