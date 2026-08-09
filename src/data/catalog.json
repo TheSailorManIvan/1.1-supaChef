@@ -59,6 +59,10 @@
     { "id": "hickory-brown-sugar", "name": "Hickory & Brown Sugar", "image": "/images/toppings/hickory-brown-sugar.jpg" },
     { "id": "vegan-cheese", "name": "Vegan cheese", "image": "/images/toppings/vegan-cheese.jpg" },
     { "id": "prawns", "name": "Prawns", "image": "/images/toppings/prawns.jpg" },
+    { "id": "paneer", "name": "Paneer", "image": "/images/toppings/paneer.jpg" },
+    { "id": "hot-honey", "name": "Hot honey", "image": "/images/toppings/hot-honey.jpg" },
+    { "id": "mango-habanero", "name": "Mango habanero", "image": "/images/toppings/mango-habanero.jpg" },
+    { "id": "peri-peri", "name": "Peri peri", "image": "/images/toppings/peri-peri.jpg" },
     { "id": "garlic-granules", "name": "Garlic granules", "image": "/images/toppings/garlic-granules.jpg" },
     { "id": "parsley", "name": "Parsley", "image": "/images/toppings/parsley.jpg" }
   ],
