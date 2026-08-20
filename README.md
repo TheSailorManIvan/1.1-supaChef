@@ -8,8 +8,9 @@ shared-layout animation, and game-like audio feedback using Vite, JavaScript,
 React, and Motion.
 
 Recipes are grouped into Meat, Chicken, Veg, and Other. Selecting a pizza
-reveals its ingredients from left to right in preparation order, with optional
-quantity notes available directly from the topping tiles.
+reveals its ingredients from left to right in the correct preparation order, with optional
+quantity notes available directly from the topping tiles. The design philosophy allows you to scan and interpret
+the information through images rather than only by reading words.
 
 ## Run locally
 
@@ -58,25 +59,6 @@ fall back directly to their category image, and missing topping images use the
 local ingredient-board image without first making a failed browser request.
 Restart the Vite development server after adding a new image so it is included
 in this image manifest.
-
-## Architecture
-
-The app uses component-driven React architecture and one-way data flow rather
-than classic MVC. MVC was considered, but this project is a stateful client-side
-interface without a backend controller layer. React's component and routing
-model maps more directly to the interface hierarchy.
-
-- JSON is the content model.
-- In-memory navigation is the source of truth for the selected category and pizza.
-- `CookbookScreen` derives the visible grid from the route and catalogue.
-- Reusable tile components own presentation and local interaction.
-- Motion `layoutId` values preserve tile identity between interface levels.
-- Temporary state is limited to the currently revealed recipe comment.
-- Shared controls provide Home navigation, QR sharing, copying, and printing.
-- Interface sounds are preloaded and reused through `src/audio/sounds.js`.
-
-Shared animation settings live in `src/animation/transitions.js`. The responsive
-grid and visual treatment are defined with plain CSS.
 
 ## Render deployment
 
